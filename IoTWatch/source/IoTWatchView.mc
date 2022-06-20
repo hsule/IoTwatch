@@ -44,9 +44,8 @@ class IoTWatchView extends WatchUi.View {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
         var responseCallback = method(:onReceive);
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/IoTWatch", params, options, method(:onReceive));
-        // Communications.makeWebRequest("https://demo.iottalk.tw/IoTWatch", params, options, method(:onReceive));
-        // Communications.makeWebRequest("http://192.168.217.1:3000/posts", params, options, method(:onReceive));
+        // Communications.makeWebRequest("http://demo.iottalk.tw:9999/IoTWatch", params, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/IoTWatch", params, options, method(:onReceive));
     }
     
     function timerCallback() {
@@ -187,25 +186,26 @@ class IoTWatchView extends WatchUi.View {
             :method => Communications.HTTP_REQUEST_METHOD_PUT,
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
-        // Communications.makeWebRequest ("https://demo.iottalk.tw/IoTWatch/IoTWatch-i", params, options, method(:onReceive));
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/IoTWatch/IoTWatch-i", params, options, method(:onReceive));
+        // Communications.makeWebRequest("http://demo.iottalk.tw:9999/IoTWatch/IoTWatch-i", params, options, method(:onReceive));
+        Communications.makeWebRequest ("https://demo.iottalk.tw/IoTWatch/IoTWatch-i", params, options, method(:onReceive));
+        
     }
         
         function onReceive(responseCode, data) {
-            if (responseCode == 200) {
-                System.println( "successful\n" );
-                System.println(data);
-            } else {
-                if (data != null) {
-                    System.println("error");
-                    System.println(responseCode);
-                    System.println(data );
-                } else {
-                    System.println( "nodata" );
-                    System.println(responseCode);
-                }
-            }
-            WatchUi.requestUpdate();
+            // if (responseCode == 200) {
+            //     System.println( "successful\n" );
+            //     System.println(data);
+            // } else {
+            //     if (data != null) {
+            //         System.println("error");
+            //         System.println(responseCode);
+            //         System.println(data );
+            //     } else {
+            //         System.println( "nodata" );
+            //         System.println(responseCode);
+            //     }
+            // }
+            // WatchUi.requestUpdate();
         }
 
     // Load your resources here

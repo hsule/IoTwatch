@@ -15,7 +15,7 @@ class IoTWatchView extends WatchUi.View {
     var string_HR;
 
     //Fill in this variable with the time interval in ms that you want to use for submitting data. Lower values will cause more calls so will cost more!
-    var timer = 5000;
+    var timer = 20000;
     
     function initialize() {
         View.initialize();
@@ -49,8 +49,7 @@ class IoTWatchView extends WatchUi.View {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
         var responseCallback = method(:onReceive);
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard", params, options, method(:onReceive));
-        // Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard", params, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard", params, options, method(:onReceive));
     }
     
     function timerCallback() {
@@ -78,7 +77,7 @@ class IoTWatchView extends WatchUi.View {
         var options = {
             :headers => headers,
             :method => Communications.HTTP_REQUEST_METHOD_PUT,
-            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN
         };
     
         //Collect Data
@@ -92,8 +91,8 @@ class IoTWatchView extends WatchUi.View {
             xAccel = 0;
             yAccel = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-xAcc-i", {"data" => [xAccel.toNumber()]}, options, method(:onReceive));
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-yAcc-i", {"data" => [yAccel.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-xAcc-i", {"data" => [xAccel.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-yAcc-i", {"data" => [yAccel.toNumber()]}, options, method(:onReceive));
 
         //Heartrate
         if (sensorInfo has :heartRate && sensorInfo.heartRate != null) {
@@ -102,7 +101,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             hR = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-hR-i", {"data" => [hR.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-hR-i", {"data" => [hR.toNumber()]}, options, method(:onReceive));
 
         //Altitude
         if (sensorInfo has :altitude && sensorInfo.altitude != null) {
@@ -111,7 +110,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             altitude = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-altitude-i", {"data" => [altitude.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-altitude-i", {"data" => [altitude.toFloat()]}, options, method(:onReceive));
 
         //Cadence
         if (sensorInfo has :cadence && sensorInfo.cadence != null) {
@@ -120,7 +119,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             cadence = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-cadence-i", {"data" => [cadence.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-cadence-i", {"data" => [cadence.toNumber()]}, options, method(:onReceive));
 
         //heading
         if (sensorInfo has :heading && sensorInfo.heading != null) {
@@ -129,7 +128,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             heading = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-heading-i", {"data" => [heading.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-heading-i", {"data" => [heading.toFloat()]}, options, method(:onReceive));
 
         //magnetometer
         if (sensorInfo has :mag && sensorInfo.mag != null) {
@@ -143,9 +142,9 @@ class IoTWatchView extends WatchUi.View {
             yMag = 1;
             zMag = 2;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-xMag-i", {"data" => [xMag.toNumber()]}, options, method(:onReceive));
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-yMag-i", {"data" => [yMag.toNumber()]}, options, method(:onReceive));
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-zMag-i", {"data" => [zMag.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-xMag-i", {"data" => [xMag.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-yMag-i", {"data" => [yMag.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-zMag-i", {"data" => [zMag.toNumber()]}, options, method(:onReceive));
 
         //Power
         if (sensorInfo has :power && sensorInfo.power != null) {
@@ -154,7 +153,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             power = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-power-i", {"data" => [power.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-power-i", {"data" => [power.toNumber()]}, options, method(:onReceive));
 
         //Pressure
         if (sensorInfo has :pressure && sensorInfo.pressure != null) {
@@ -163,7 +162,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             pressure = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-pressure-i", {"data" => [pressure.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-pressure-i", {"data" => [pressure.toFloat()]}, options, method(:onReceive));
 
         //Speed
         if (sensorInfo has :speed && sensorInfo.speed != null) {
@@ -172,7 +171,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             speed = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-speed-i", {"data" => [speed.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-speed-i", {"data" => [speed.toFloat()]}, options, method(:onReceive));
 
         //Temperature
         if (sensorInfo has :temp && sensorInfo.temp != null) {
@@ -181,7 +180,7 @@ class IoTWatchView extends WatchUi.View {
         else {
             temp = 0;
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-temp-i", {"data" => [temp.toNumber()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-temp-i", {"data" => [temp.toNumber()]}, options, method(:onReceive));
 
         //Position
         if (positionInfo has :position && positionInfo.position != null) {
@@ -194,29 +193,17 @@ class IoTWatchView extends WatchUi.View {
             longitude = 0;
 
         }
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-lat-i", {"data" => [latitude.toFloat()]}, options, method(:onReceive));
-        Communications.makeWebRequest("http://demo.iottalk.tw:9999/watch_dashboard/watch-long-i", {"data" => [longitude.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-lat-i", {"data" => [latitude.toFloat()]}, options, method(:onReceive));
+        Communications.makeWebRequest("https://demo.iottalk.tw/watch_dashboard/watch-long-i", {"data" => [longitude.toFloat()]}, options, method(:onReceive));
 
 
-        //Send the data to the REST API
+        // Send the data to the REST API
         // Communications.makeWebRequest ("https://demo.iottalk.tw/IoTWatch/IoTWatch-i", params, options, method(:onReceive));
         
     }
         
         function onReceive(responseCode, data) {
-            // if (responseCode == 200) {
-            //     System.println( "successful\n" );
-            //     System.println(data);
-            // } else {
-            //     if (data != null) {
-            //         System.println("error");
-            //         System.println(responseCode);
-            //         System.println(data );
-            //     } else {
-            //         System.println( "nodata" );
-            //         System.println(responseCode);
-            //     }
-            // }
+            System.println("requestCallback " + responseCode + ", data = " + data);
             // WatchUi.requestUpdate();
         }
 

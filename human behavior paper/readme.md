@@ -7,7 +7,7 @@
 * 破解付費paper:<https://sci-hub.se/>
 
 * 論文連結: 
-  * Enhanced Hand-Oriented Activity Recognition Based on Smartwatch Sensor Data Using LSTMs:
+  * Enhanced Hand-Oriented Activity Recognition Based on Smartwatch Sensor Data Using LSTMs:  
     <https://www.mdpi.com/2073-8994/12/9/1570>   
   * Smartwatch-based Human Activity Recognition Using Hybrid LSTM Network:   
     <https://ieeexplore.ieee.org/document/9278630>  

@@ -8,7 +8,7 @@
 
 * 論文連結: 
   * Enhanced Hand-Oriented Activity Recognition Based on Smartwatch Sensor Data Using LSTMs:  <https://www.mdpi.com/2073-8994/12/9/1570>   
-  * Smartwatch-based Human Activity Recognition Using Hybrid LSTM Network:  <https://ieeexplore.ieee.org/document/9278630>  
+  * Smartwatch-based Human Activity Recognition Using Hybrid LSTM Network:    <https://ieeexplore.ieee.org/document/9278630>  
   * Sensor-based Complex Human Activity Recognition from Smartwatch Data using Hybrid Deep Learning Network:  <https://ieeexplore.ieee.org/document/9501477>  
   * A Multichannel CNN-LSTM Network for Daily Activity Recognition using Smartwatch Sensor Data:  <https://ieeexplore.ieee.org/document/9425769>  
   * Sensitive Integration of Multilevel Optimization Model in Human Activity Recognition for Smartphone and Smartwatch Applications:  <https://ieeexplore.ieee.org/document/9343922> 

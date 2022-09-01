@@ -71,5 +71,5 @@
 	21:00 sitting 
 	洗澡
 * 9/1 
-	21:05 using computer
+	20:05 using computer
 

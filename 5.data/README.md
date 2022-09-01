@@ -72,4 +72,5 @@
 	洗澡
 * 9/1 
 	20:05 using computer
+	洗澡
 

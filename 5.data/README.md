@@ -73,4 +73,29 @@
 * 9/1 
 	20:05 using computer
 	洗澡
+* 9/2 
+	15:38 躺著滑手機
+	16:15 walking 
+	16:19 driving 
+	17:10 walking
+	17:15 騎機車
+	17:27 walking 
+	17:29 上廁所
+	17:32 walking 
+	17:34 sitting  玩手機
+	18:38 lying 
+	18:49 sitting 
+	18:52 walking 
+	18:53 上廁所
+	19:08 walking  洗手 
+	19:09 趴著滑手機
+	19:15 躺著滑手機
+	19:49 跟多多玩
+	19:57 eating 
+	20:15 sitting 
+	20:46 eating 
+	20:59 lying
+	21:40 walking 上廁所
+	21:42 sitting 
+	22:27 using computer
 

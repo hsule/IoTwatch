@@ -1,15 +1,15 @@
 * 8/26 
 	13:55 換衣服
-	13:58 走路
+	13:58 walking
 	14:14 standing
-	14:21 走路
+	14:21 walking
 	14:27 sitting
 	14:29 eating
-	14:45 lying（滑手機）
+	14:45 lying
 	17:02 上廁所
-	17:03 走路
-	17:07 開車
-	17:11 走路
+	17:03 walking
+	17:07 driving
+	17:11 walking
 	17:28 sitting
 	20:51 eating
 	21:00 上廁所
@@ -74,7 +74,7 @@
 	20:05 using computer
 	洗澡
 * 9/2 
-	15:38 躺著滑手機
+	15:38 lying
 	16:15 walking 
 	16:19 driving 
 	17:10 walking
@@ -88,8 +88,8 @@
 	18:52 walking 
 	18:53 上廁所
 	19:08 walking  洗手 
-	19:09 趴著滑手機
-	19:15 躺著滑手機
+	19:09 趴著
+	19:15 lying
 	19:49 跟多多玩
 	19:57 eating 
 	20:15 sitting 
@@ -98,4 +98,57 @@
 	21:40 walking 上廁所
 	21:42 sitting 
 	22:27 using computer
+* 9/4
+	11:45 walking 
+	11:52 坐汽車
+	12:21 walking 
+	12:34 排隊
+	13:00 sitting eating 
+	13:26 walking 
+	13:48 坐汽車
+	15:38 walking 
+	15:41 上廁所
+	15:46 walking 
+	16:04 sitting 
+	16:06 using computer 
+	16:22 walking 
+	16:35 driving 
+	16:58 walking 
+	17:05 sitting 
+	17:17  walking 
+	17:28 sitting 
+	18:34 walking 
+	18:36 sitting eating 
+	18:52 sitting 
+	19:51 walking 
+	19:57 standing
+	20:00 walking 
+	20:01 sitting 
+	20:09 driving 
+	20:31 walking 
+	20:40 sitting 
+	20:56 walking 
+	20:57 driving 
+	手機沒電
+	23:02 lying 
+* 9/5
+	14:41 walking 
+	14:49 慢跑
+	14:51 walking 
+	14:56 sitting 
+	15:00 walking 
+	15:06 sitting 
+	15:08 eating 
+	15:26 sitting 
+	17:07 walking 上廁所
+	17:15 walking 洗手洗臉
+	17:16 lying
+	19:26 walking 
+	19:55 sitting 
+	19:56 eating 
+	20:10 sitting 
+	22:03趴著
+	22:06 跟多多玩
+	22:10 walking 
+	22:11 sitting using computer
 

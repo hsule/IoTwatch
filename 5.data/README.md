@@ -151,4 +151,36 @@
 	22:06 跟多多玩
 	22:10 walking 
 	22:11 sitting using computer
+* 9/6
+	14:44 using computer
+	15:52 換衣服
+	15:56 walking 
+	16:00 騎機車
+	16:04 standing 
+	16:10 walking 
+	16:19 騎機車
+	16:24 walking 
+	16:27 騎機車 
+	16:28 加油
+	16:30 騎機車
+	16:34 walking 
+	16:38 騎機車
+	16:43 walking 
+	16:45 sitting eating 
+	17:04 sitting 
+	17:13 walking sitting using computer 
+	18:04 walking 
+	18:05 上廁所
+	18:14 walking 
+	18:16 sitting using computer 
+	19:19 lying 
+	21:05 跟多多玩
+	21:13 lying
+	21:16 walking 上廁所
+	21:19  walking 
+	21:25 sitting 
+	21:29 walking 
+	21:43 sitting 
+	22:10 洗澡
+	22:39 using computer
 

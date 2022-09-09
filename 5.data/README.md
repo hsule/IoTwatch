@@ -183,4 +183,65 @@
 	21:43 sitting 
 	22:10 洗澡
 	22:39 using computer
+* 9/7 
+	12:45 換衣服
+	12:48 walking 
+	12:52 騎機車
+	12:55 walking 
+	13:06 騎機車
+	13:16 sitting 
+	13:21 standing 
+	13:23 sitting 
+	13:28 騎機車
+	13:35 walking 
+	13:36 sitting eating 
+	14:00 sitting 
+	14:15 walking 
+	14:16 上廁所
+	14:23 walking 趴著
+	14:43 lying 
+	16:32 using computer 
+	19:22 walking 
+	19:23 上廁所
+	19:24 walking 
+	19:25 sitting eating 
+	19:41 walking 
+	19:42 上廁所
+	19:52 walking 
+	19:54 sitting using computer 
+	20:53 洗澡
+	21:45 using computer 
+	22:37 walking 吹頭髮
+	22:39 walking 
+	22:42 sitting using computer 
+* 9/8 
+	9:11 walking 
+	9:21 騎機車
+	10:05 walking 
+	10:36 坐遊樂設施
+	10:40 walking 
+	10:47 standing 
+	10:53 坐遊樂設施
+	10:59 walking 
+	11:03 standing 
+	11:20 walking 
+	11:32 sitting 
+	12:11 walking 
+	12:24 sitting 
+	12:29 walking 
+	15:02 walking
+	15:11 sitting 
+	15:18 walking 
+	15:19 搭巴士
+	15:34 walking 
+	16:16 sitting 
+	16:22 walking 
+	16:43 騎機車
+	17:16 walking 
+	18:35 walking 
+	18:37 騎機車
+	18:53 walking 
+	19:01 sitting 
+	19:21 eating 
+	22:55 lying
 

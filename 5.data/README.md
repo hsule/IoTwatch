@@ -244,4 +244,59 @@
 	19:01 sitting 
 	19:21 eating 
 	22:55 lying
+* 9/9 
+	13:49 using computer 
+	14:47 walking 
+	14:48 lying
+	14:58 walking 上廁所
+	15:06 walking 
+	15:07 lying
+	15:46 walking sitting 
+	16:57 using computer 
+	17:16 lying 
+	18:54 walking  sitting 
+	19:12 walking 上廁所
+	19:13 walking 
+	19:20 坐汽車
+	19:29 walking 
+	19:36 sitting 
+	19:54 walking 
+	19:56 sitting eating 
+	20:50 walking 
+	20:54 坐汽車
+	21:00 walking 
+	21:03 sitting 
+	21:10 lying 
+	22:58 using computer 
+	23:08 lying 
+* 9/10 
+	8:23 walking 
+	8:52 sitting 
+	8:53 eating 
+	9:27 sitting 
+	9:35 lying 
+	9:54 walking 上廁所
+	10:04 walking lying 
+	12:53 walking 上廁所
+	12:58 walking 換衣服
+	13:01 sitting 
+	13:15 walking 
+	13:19 坐汽車
+	13:37 walking 
+	14:11 坐汽車
+	14:31 walking 
+	14:34 sitting 
+	14:35 eating 
+	14:54 sitting 
+	15:04 lying
+	17:10附近 sleeping
+	18:22 lying
+	19:00 walking 上廁所
+	19:09 walking 
+	19:12 sitting 
+	19:25 烤肉
+	20:53 趴著
+	21:35 上廁所
+	21:45 lying 
+	22:24 洗澡
 

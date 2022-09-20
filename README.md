@@ -1,3 +1,3 @@
 # IoTwatch
 
-change each filename to `IoTWatch` before build
+`IoTWatch` file is the latest version

@@ -256,79 +256,79 @@ class IoTWatchView extends WatchUi.View {
 
 
     function onReceive(responseCode, data) {
-        System.println("1 requestCallback " + responseCode + ", data = " + data);
+        // System.println("1 requestCallback " + responseCode + ", data = " + data);
     }
 
     function onReceive1(responseCode, data) {
-        System.println("1 requestCallback " + responseCode + ", data = " + data);
+        // System.println("1 requestCallback " + responseCode + ", data = " + data);
         sensor2();
     }
 
     function onReceive2(responseCode, data) {
-        System.println("2 requestCallback " + responseCode + ", data = " + data);
+        // System.println("2 requestCallback " + responseCode + ", data = " + data);
         sensor3();
     }
 
     function onReceive3(responseCode, data) {
-        System.println("3 requestCallback " + responseCode + ", data = " + data);
+        // System.println("3 requestCallback " + responseCode + ", data = " + data);
         sensor4();
     }
 
     function onReceive4(responseCode, data) {
-        System.println("4 requestCallback " + responseCode + ", data = " + data);
+        // System.println("4 requestCallback " + responseCode + ", data = " + data);
         sensor5();
     }
     
     function onReceive5(responseCode, data) {
-        System.println("5 requestCallback " + responseCode + ", data = " + data);
+        // System.println("5 requestCallback " + responseCode + ", data = " + data);
         sensor6();
     }
 
     function onReceive6(responseCode, data) {
-        System.println("6 requestCallback " + responseCode + ", data = " + data);
+        // System.println("6 requestCallback " + responseCode + ", data = " + data);
         sensor7();
     }
 
     function onReceive7(responseCode, data) {
-        System.println("7 requestCallback " + responseCode + ", data = " + data);
+        // System.println("7 requestCallback " + responseCode + ", data = " + data);
         sensor8();
     }
 
     function onReceive8(responseCode, data) {
-        System.println("8 requestCallback " + responseCode + ", data = " + data);
+        // System.println("8 requestCallback " + responseCode + ", data = " + data);
         sensor9();
     }
 
     function onReceive9(responseCode, data) {
-        System.println("9 requestCallback " + responseCode + ", data = " + data);
+        // System.println("9 requestCallback " + responseCode + ", data = " + data);
         sensor10();
     }
 
     function onReceive10(responseCode, data) {
-        System.println("10 requestCallback " + responseCode + ", data = " + data);
+        // System.println("10 requestCallback " + responseCode + ", data = " + data);
         sensor11();
     }
         function onReceive11(responseCode, data) {
-        System.println("11 requestCallback " + responseCode + ", data = " + data);
+        // System.println("11 requestCallback " + responseCode + ", data = " + data);
         sensor12();
     }
 
     function onReceive12(responseCode, data) {
-        System.println("12 requestCallback " + responseCode + ", data = " + data);
+        // System.println("12 requestCallback " + responseCode + ", data = " + data);
         sensor13();
     }  
 
     function onReceive13(responseCode, data) {
-        System.println("13 requestCallback " + responseCode + ", data = " + data);
+        // System.println("13 requestCallback " + responseCode + ", data = " + data);
         sensor14();
     }
 
     function onReceive14(responseCode, data) {
-        System.println("14 requestCallback " + responseCode + ", data = " + data);
+        // System.println("14 requestCallback " + responseCode + ", data = " + data);
         sensor15();
     }
         function onReceive15(responseCode, data) {
-        System.println("15 requestCallback " + responseCode + ", data = " + data);
+        // System.println("15 requestCallback " + responseCode + ", data = " + data);
         sensor1();
     } 
     

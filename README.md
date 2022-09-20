@@ -1,3 +1,3 @@
 # IoTwatch
 
-`IoTWatch` file is the latest version
+`IoTWatch` runs on `1.iottalk.tw`

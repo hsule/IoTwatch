@@ -1,3 +1,5 @@
+* reference code
+  * https://github.com/davedoesdemos/ConnectIQ-Watch-IoT
 * 參考網站:  
   * IEEE Xplore:<https://ieeexplore.ieee.org/Xplore/home.jsp>  
   * semanticscholar:<https://www.semanticscholar.org/>  
